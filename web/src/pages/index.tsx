@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import { Open_Sans } from 'next/font/google'
+import Image from 'next/image';
+import { Open_Sans } from 'next/font/google';
+import { Header } from '@/components/header';
 
-const openSans = Open_Sans({ subsets: ['latin'] })
+const openSans = Open_Sans({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-    </main>
-  )
+    <div>
+      <Header></Header>
+    </div>
+  );
 }
