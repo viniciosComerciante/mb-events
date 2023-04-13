@@ -20,7 +20,7 @@ export function MainLink({
       href={href}
       className={`${
         border &&
-        `border border-solid rounded-lg ease-in-out duration-300 hover:bg-white hover:text-primary-500`
+        `border border-solid rounded-lg ease-in-out duration-300 hover:bg-white hover:text-primary-500 text-white`
       } py-2.5 px-4 text-${color}`}
       style={{ borderColor }}
     >
