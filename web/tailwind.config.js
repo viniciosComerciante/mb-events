@@ -9,10 +9,20 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          500: '#5C2E43',
-          700: '#4E293A'
+          500: '#1f2029',
+          700: '#181b23'
         },
+        textColor:{
+          200:'#4c576c',
+          500: '#191f28'
+        }
       },
+      minHeight: {
+        '110': '110%',
+      },
+      minWidth:{
+        '110':'110%'
+      }
     },
   },
   plugins: [],
