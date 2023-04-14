@@ -5,12 +5,12 @@ import { MainLink } from '../mainLink';
 
 export function Header() {
   return (
-    <header className="w-full h-20 bg-primary-500 flex items-center px-8">
+    <header className="w-full h-20 bg-primary-500 flex items-center px-4">
       <Image
         src="/logo.png"
         alt="logo mb-events"
-        width={232}
-        height={55}
+        width={170}
+        height={0}
       ></Image>
       <div className="flex justify-between w-full">
         <SearchBox />
